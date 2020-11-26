@@ -1,0 +1,157 @@
+/***TAG SECTION****/
+
+a{
+  color: #139460;
+  font-family: 'Maven Pro', sans-serif;
+  margin: 10px 20px;
+  text-decoration: none;
+}
+a:hover{
+  color: #17B978;
+}
+body{
+  background-color: #2A253A;
+  color: #EEDDFF;
+  font-family: 'Merriweather', serif;
+  font-size: 1.1rem;/*rem = root em; ignores accumulative effect of em and sets it relative only to itself; made available in CSS3*/
+  /*font-size: 1.2em;/*em = phonetic /m/; em = the width of the capital letter M. 1em = 100% = 16px*/
+  margin: 0px;
+  text-align: center;/*aligns everything without a width setting; if there's a width setting, use margins (see: h1)*/
+}
+button{
+  background-color: #17B978;
+  color: #FFFFFF;
+  border: 0px;
+  border-radius: 10px;
+}
+h1{
+  color: #17B978;
+  font-family: 'Sacramento', cursive;
+  font-size: 7rem;
+  /*font-size: 4.8em; /*em is accumulative. it adds to previously specified em (such as in the body tag above); 1.2em + 4.8em = 6em = 600% = 96px; percentages are also accumulative*/
+  margin: 20px auto 0px;
+  /*margin: 0 auto 0 auto;*/
+  /*width: 10%;*/
+}
+h2{
+  color: #17B978;
+  font-family: 'Maven Pro', sans-serif;
+  font-size: 2.5rem;
+  font-weight: normal;
+  padding-bottom: 10px;
+}
+h3{
+  color: #17B978;
+  font-family: 'Maven Pro', sans-serif;
+}
+hr{
+  border: none;
+  border-top: dotted;
+  border-width: 6px;
+  margin: 50px auto;
+  width: 3%;
+}
+p{
+  line-height: 2;
+}
+
+/****CLASS SECTION****/
+.btn {
+  background: #17B978;
+  background-image: -webkit-linear-gradient(top, #17B978, #139460);
+  background-image: -moz-linear-gradient(top, #17B978, #139460);
+  background-image: -ms-linear-gradient(top, #17B978, #139460);
+  background-image: -o-linear-gradient(top, #17B978, #139460);
+  background-image: -webkit-gradient(to bottom, #17B978, #139460);
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+  color: #FFFFFF;
+  font-family: 'Maven Pro', sans-serif;
+  font-size: 1.2rem;
+  font-weight: 100;
+  line-height: 2.5;
+  padding: 0px 20px;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  text-align: center;
+}
+
+.btn:hover {
+  background: #139460;
+  background-image: -webkit-linear-gradient(top, #139460, #17B978);
+  background-image: -moz-linear-gradient(top, #139460, #17B978);
+  background-image: -ms-linear-gradient(top, #139460, #17B978);
+  background-image: -o-linear-gradient(top, #139460, #17B978);
+  background-image: -webkit-gradient(to bottom, #139460, #17B978);
+  color: #FFFFFF;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+  text-decoration: none;
+}
+.contact-msg{
+  margin: 40px auto 60px;
+  width: 30%;
+}
+.copyright{
+  font-size: 0.15rem;
+  padding: 20px 0px;
+}
+.cloudTop{
+  position: absolute;
+  right: 500px;
+  top: 50px;
+}
+.cloudBot{
+  position: absolute;
+  left: 450px;
+  bottom: 300px;
+}
+.containerTop{
+  background-color: #2A253A;
+  padding-top: 100px;
+  position: relative;
+}
+.containerMid{
+  background-color: #3B364B;
+  padding: 50px 0px;
+}
+.containerBot{
+  padding-top: 10px;
+  padding: 40px 0px 20px;
+}
+.flagJapan{
+  border-radius: 100%;
+  float: right;/*stop floating with clear*/
+  margin-left: 30px;
+  width: 20%;
+}
+.flagUnionJack{
+  border-radius: 100%;
+  float: left;
+  margin-right: 30px;
+  width: 20%;
+}
+.footer-link{
+  font-weight: bolder ;
+}
+.intro{
+  margin: auto;
+  width: 30%;
+}
+.pfp{
+  border-radius: 100%;
+  width: 10%;
+}
+.skill-row{
+  margin: 100px auto 150px auto;
+  text-align: left;
+  width: 50%;
+}
+.topH2{
+  font-size: 2rem;
+  padding: 0px auto 10px;
+  margin: 0px;
+}
